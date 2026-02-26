@@ -11,43 +11,43 @@ The project emphasizes algorithm design, efficiency, and problem decomposition u
 
 The project includes:
 
-Parsing and validating integer input
+·  Parsing and validating integer input
 
-Implementing two stacks (A and B)
+·  Implementing two stacks (A and B)
 
-Implementing the allowed operations:
+·  Implementing the allowed operations:
 
-sa, sb, ss
+    sa, sb, ss
 
-pa, pb
+    pa, pb
 
-ra, rb, rr
+    ra, rb, rr
 
-rra, rrb, rrr
+    rra, rrb, rrr
 
-Designing a sorting strategy optimized for operation count
+·  Designing a sorting strategy optimized for operation count
 
-Handling edge cases (duplicates, overflow, invalid input)
+·  Handling edge cases (duplicates, overflow, invalid input)
 
-Ensuring correct memory management
+·  Ensuring correct memory management
 
 Implemented in:
 
-C
+·  C
 
 ## Project Focus
 
 push_swap focuses on:
 
-Designing efficient sorting strategies under operational constraints
+·  Designing efficient sorting strategies under operational constraints
 
-Analyzing time and move complexity
+·  Analyzing time and move complexity
 
-Choosing appropriate data structures
+·  Choosing appropriate data structures
 
-Breaking a complex problem into smaller deterministic steps
+·  Breaking a complex problem into smaller deterministic steps
 
-Optimizing for performance rather than brute-force solutions
+·  Optimizing for performance rather than brute-force solutions
 
 ## Technical Scope
 
@@ -55,16 +55,16 @@ The project explores algorithmic problem-solving in a restricted environment. Si
 
 Common approaches involve:
 
-Indexing and normalization
+·  Indexing and normalization
 
-Chunk-based sorting strategies
+·  Chunk-based sorting strategies
 
-Variations of radix sort
+·  Variations of radix sort
 
-Cost calculation for optimal element movement
+·  Cost calculation for optimal element movement
 
 The emphasis is on balancing correctness, efficiency, and move optimization within strict rules.
 
 ## Build & Run
-make
-./push_swap 4 67 3 87 23
+    make
+    ./push_swap 4 67 3 87 23
